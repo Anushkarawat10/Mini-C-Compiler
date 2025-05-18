@@ -1,0 +1,15 @@
+0: main:
+1: a = 10
+2: b = 5
+3: t0 = a + b
+4: result = t0
+5: if result > 10 goto 7
+6: goto 9
+7: t1 = result * 2
+8: result = t1
+9: if result > 0 goto 11
+10: goto 14
+11: t2 = result - 1
+12: result = t2
+13: goto 9
+14: exit
